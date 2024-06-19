@@ -1,0 +1,27 @@
+.simple-todo-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f1f5f9;
+  border-radius: 12px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to right top, #ffc2a0, #ffffff);
+}
+
+.main-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.todos-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+@media (max-width: 576px) {
+  .main-heading {
+    font-size: 24px;
+  }
+}
